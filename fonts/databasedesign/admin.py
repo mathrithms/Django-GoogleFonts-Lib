@@ -4,4 +4,4 @@ from .models import font
 @admin.register(font)
 
 class fontName(admin.ModelAdmin):
-	list_display = ["category", "kind", "family", "version", "lastModified"]
+	list_display = ["category", "family", "version", "lastModified"]
